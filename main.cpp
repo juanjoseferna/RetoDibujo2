@@ -41,6 +41,7 @@ public:
         glPushMatrix();
 
         glPushMatrix();
+        glTranslatef(0.0, -3.0, 0.0);
         glutSolidTeapot(1);
         glPopMatrix();
 
@@ -48,7 +49,7 @@ public:
         glTranslatef(0.0, 3, 0.0);
         glBegin(GL_TRIANGLES);
         glVertex3f(3, 0.0, 0.0);
-        glVertex3f(0.0, 1.5, 0.0);
+        glVertex3f(0.0, 3, 0.0);
         glVertex3f(-3, 0.0, 0.0);
         glEnd();
         glPopMatrix();
